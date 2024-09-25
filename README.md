@@ -2,7 +2,7 @@
 
 Multiple PTM site prediction on full-length protein sequence   
 
-![Image text](https://github.com/TransPTM/UniPTM/blob/main/logo.png =100*20)
+![Image text](https://github.com/TransPTM/UniPTM/blob/main/logo.png width='100')
 
 ## Environment
 python 3.6.3  
