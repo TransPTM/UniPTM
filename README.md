@@ -10,6 +10,6 @@ pytorch 1.10.1
 cuda 12.1
 
 ## How to run
-Run python files in embedding folder to represent data
-Run cross_validation.py to conduct 5-fold cv
+Run python files in embedding_generation folder to represent data  
+Run cross_validation.py to conduct 5-fold cv  
 Run main.py to train and test 
