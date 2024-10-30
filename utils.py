@@ -5,7 +5,6 @@ import copy
 import numpy as np
 from torch import nn
 from types import SimpleNamespace
-from Data.data_processing import data_balance
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef, roc_auc_score, average_precision_score
 
 
@@ -69,8 +68,6 @@ class TrainProcessor:
 
             pred_ls.extend(valid_preds)
             y_ls.extend(valid_labels)
-
-            balanced_preds, balanced_labels = data_balance(pred_ls, y_ls)
 
             pred = np.concatenate(pred_ls)  
             y = np.concatenate(y_ls)
